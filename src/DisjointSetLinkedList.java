@@ -19,9 +19,7 @@ public class DisjointSetLinkedList implements IDisjointSetStructure {
     public DisjointSetLinkedList(int size) {
         for (int i = 0; i < size; i++) {
             makeset(i);
-//            System.out.println("i = " + i + " hashcode: " + find(i).hd.val);
         }
-
     }
 
     // Hash to store addresses of set representatives
